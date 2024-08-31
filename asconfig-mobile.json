@@ -1,0 +1,64 @@
+{
+  "config": "airmobile",
+  
+  "airOptions": {
+    "android": {
+      "platformsdk": "/Users/sergey_leshchinskiy/Library/Android/sdk",
+      "connect": true,
+      "target": "apk-debug",
+      "output": "bin/battles",
+      "signingOptions": {
+        "storetype": "pkcs12",
+        "keystore": "crt/newcert.p12"
+      }
+    },
+    "files": [
+      {
+        "file": "bin/socket.cfg",
+        "path": "socket.cfg"
+      },
+      {
+        "file": "bin/models.tara",
+        "path": "models.tara"
+      },
+      {
+        "file": "bin/sounds.tara",
+        "path": "sounds.tara"
+      },
+      {
+        "file": "bin/images.tara",
+        "path": "images.tara"
+      },
+      {
+        "file": "assets/icon",
+        "path": "icon"
+      },
+      {
+        "file": "bin/maps.tara",
+        "path": "maps.tara"
+      },
+      {
+        "file": "bin/props.tara",
+        "path": "props.tara"
+      },
+      {
+        "file": "bin/signatures.xml",
+        "path": "signatures.xml"
+      }
+    ]
+  },
+  "compilerOptions": {
+    "static-link-runtime-shared-libraries": true,
+    "warnings": false,
+    "debug": false,
+    "library-path": [
+      "lib"
+    ],
+    "source-path": [
+      "src"
+    ],
+    "output": "bin/battles.swf"
+  },
+  "application": "src/Main-app.xml",
+  "mainClass": "Game"
+}

@@ -1,0 +1,96 @@
+{
+	"id": "IMAGES",
+	"items": [
+		{
+			"name": "galaxian_m0",
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "tictactoe_m0",
+			"fps": 20,
+			"frame_heigth": 64,
+			"frame_width": 64,
+			"num_frames": 64
+		},
+        {
+			"name": "iceflurry_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "lightningstorm_m0",
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "matrix_m0",
+			"fps": 18,
+			"frame_heigth": 64,
+			"frame_width": 64,
+			"num_frames": 10
+		},
+        {
+			"name": "glow_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "galaxy_m0",
+			"fps": 10,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 18
+		},
+        {
+			"name": "iceflurry_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "cryo_m0",
+			"fps": 32,
+			"frame_heigth": 64,
+			"frame_width": 64,
+			"num_frames": 256
+		},
+        {
+			"name": "turbo_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 128
+		},
+        {
+			"name": "besthelper_m0",
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "flame2_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+        {
+			"name": "champion_m0",
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 256
+		}
+	]
+}

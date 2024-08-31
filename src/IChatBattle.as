@@ -1,0 +1,7 @@
+﻿package
+{
+    public interface IChatBattle
+    {
+
+    }
+}

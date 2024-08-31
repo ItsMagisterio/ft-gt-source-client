@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.primetanki.NativeExtension</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+	<platform name ="Windows-x86-64">
+      <applicationDeployment>
+         <initializer>initializer</initializer>
+         <finalizer>finalizer</finalizer>
+         <nativeLibrary>libPrimeTankiANE.dll</nativeLibrary>
+      </applicationDeployment> 
+   </platform>
+	</platforms>
+</extension>

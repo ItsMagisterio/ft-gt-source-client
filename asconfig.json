@@ -1,0 +1,49 @@
+{
+  "config": "air",
+  "airOptions": {
+    "windows": {
+      "target": "bundle",
+      "output": "bin/battles",
+      "signingOptions": {
+        "storetype": "pkcs12",
+        "keystore": "crt/newcert.p12"
+      }
+    },
+    "mac": {
+      "target": "bundle",
+      "output": "bin/PrimeTanki",
+      "signingOptions": {
+        "storetype": "pkcs12",
+        "keystore": "crt/newcert.p12"
+      }
+    },
+    "files": [
+      {
+        "file": "bin/socket.cfg",
+        "path": "socket.cfg"
+      },
+      {
+        "file": "assets/icon",
+        "path": "icon"
+      },
+      {
+        "file": "bin/signatures.xml",
+        "path": "signatures.xml"
+      }
+    ]
+  },
+  "compilerOptions": {
+    "static-link-runtime-shared-libraries": true,
+    "warnings": false,
+    "debug": false,
+    "library-path": [
+      "lib"
+    ],
+    "source-path": [
+      "src"
+    ],
+    "output": "bin/battles.swf"
+  },
+  "application": "src/Main-app.xml",
+  "mainClass": "Game"
+}

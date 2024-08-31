@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/33.1">
+  <id>CyberTankz</id>
+  <filename>CyberTankz</filename>
+  <name>CyberTankz</name>
+  <architecture>64</architecture>
+  <versionNumber>1.0</versionNumber>
+  <initialWindow>
+    <content>battles.swf</content>
+    <visible>true</visible>
+    <depthAndStencil>true</depthAndStencil>
+    <renderMode>direct</renderMode>
+    <maximizable>true</maximizable>
+    <width>1024</width>
+    <height>768</height>
+    <minSize>1024 768</minSize>
+    <title></title>
+    <systemChrome>standard</systemChrome>
+  </initialWindow>
+  <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+  <description>CyberTankz</description>
+  <copyright></copyright>
+  <versionLabel>bag</versionLabel>
+  <installFolder>CyberTankz</installFolder>
+</application>
