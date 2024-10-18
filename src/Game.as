@@ -64,8 +64,7 @@
         public static var local:Boolean = false;
         public static var _stage:Stage;
         private static var classInited:Boolean;
-        //public static var httpServerURL:String = "http://cdn.primetanki.com:32286/";
-        public static var httpServerURL:String = "http://185.249.198.242:8000/";
+        public static var httpServerURL:String = "http://127.0.0.1:8080/resources/";
         public var osgi:OSGi;
         public var main:Main;
         public var battlefieldModel:BattlefieldModelActivator;
